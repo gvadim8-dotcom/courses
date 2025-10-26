@@ -1,129 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Flowers</title>
-    <!-- Reset browser styles -->
-    <link rel="stylesheet" href="css/reset.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Flowers</title>
+  <!-- Reset browser styles -->
+  <link rel="stylesheet" href="css/reset.css">
 
-    <!-- Normalize.css (universal alignment) -->
-    <link rel="stylesheet" href="css/normalize.css">
+  <!-- Normalize.css (universal alignment) -->
+  <link rel="stylesheet" href="css/normalize.css">
 
-    <!-- Your own styles -->
-    <link rel="stylesheet" href="css/styles.css">
-</head> 
+  <!-- Your own styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
 <body>
-   
-<main>
-   
-    <aside class="sidebar">
-        <h3>Categories</h3>
-        <ul>
-          <li>House Plants</li>
-          <li>Potter Plants</li>
-          <li>Seeds</li>
-          <li>Small Plants</li>
-          <li>Big Plants</li>
-          <li>Succulents</li>
-          <li>Terrariums</li>
-          <li>Gardening</li>
-          <li>Accessories</li>
-        </ul>  
 
-        <div class="sale-banner">
-          <h4>Super Sale</h4>
-          <p>UP TO 75% OFF</p>
-          <img src="./img/sale-plant.png" alt="Sale plant">
-        </div>
-      </aside>
+  <main>
+
+    <aside class="sidebar">
+      <h3>Categories</h3>
+      <ul>
+        <li class="active"><a href="#">House Plants</a></li>
+        <li><a href="#">Potter Plants</a></li>
+        <li><a href="#">Seeds</a></li>
+        <li><a href="#">Small Plants</a></li>
+        <li><a href="#">Big plants</a></li>
+        <li><a href="#">Succulents</a></li>
+        <li><a href="#">Terrariums</a></li>
+        <li><a href="#">Gardening</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+      <img class="sale-banner" src="./img/sale-plant.png" alt="Sale plant">
+    </aside>
 
     <div class="content">
       <div class="sort">
         <div class="sort-categories">
-        <button class="sort-categories-btn active">All Plants</button>
-        <button class="sort-categories-btn">New Arrivals</button>
-        <button class="sort-categories-btn">Sale</button>
-    </div>
-    
-    <div class="sort-side">
+          <button class="sort-categories-btn active">All Plants</button>
+          <button class="sort-categories-btn">New Arrivals</button>
+          <button class="sort-categories-btn">Sale</button>
+        </div>
+
+        <div class="sort-side">
           <span>Sort by:</span>
-        <select name="sort-options" id="sort-options">
-          <option value="popularity">Default sorting</option>
-          <option value="price-low-high">Price: Low to High</option>
-          <option value="price-high-low">Price: High to Low</option>
-          <option value="alphabetical-a-z">Alphabetical: A to Z</option>
-          <option value="alphabetical-z-a">Alphabetical: Z to A</option>
-        </select>
+          <select name="sort-options" id="sort-options">
+            <option value="popularity">Default sorting</option>
+            <option value="price-low-high">Price: Low to High</option>
+            <option value="price-high-low">Price: High to Low</option>
+            <option value="alphabetical-a-z">Alphabetical: A to Z</option>
+            <option value="alphabetical-z-a">Alphabetical: Z to A</option>
+          </select>
         </div>
       </div>
-           <div class="products">
-          <div class="product-card">
-            <img src="./img/plant1.png" alt="Barberton Daisy">
-            <p class="title">Barberton Daisy</p>
-            <p class="price">$119.00</p>
-          </div>
+      <div class="products">
+        <a href="#" class="product-card">
+          <img src="./img/plant1.png" alt="Barberton Daisy">
+          <p class="title">Barberton Daisy</p>
+          <p class="price">$119.00</p>
+        </a>
 
-          <div class="product-card">
-            <img src="./img/plant2.jpg" alt="Angel Wing Begonia">
-            <p class="title">Angel Wing Begonia</p>
-            <p class="price">$169.00</p>
-          </div>
+        <a href="#" class="product-card">
+          <img src="./img/plant2.jpg" alt="Angel Wing Begonia">
+          <p class="title">Angel Wing Begonia</p>
+          <p class="price">$169.00</p>
+        </a>
 
-          <div class="product-card">
-            <img src="./img/plant3.png" alt="African Violet">
-            <p class="title">African Violet</p>
-            <p class="price">$199.00</p>
-          </div>
+        <a href="#" class="product-card">
+          <img src="./img/plant3.png" alt="African Violet">
+          <p class="title">African Violet</p>
+          <p class="price">$199.00</p>
+        </a>
 
-          <div class="product-card">
-            <img src="./img/plant4.png" alt="Beach Spider Lily">
-            <p class="title">Beach Spider Lily</p>
-            <p class="price">$129.00</p>
-          </div>
+        <a href="#" class="product-card">
+          <img src="./img/plant4.png" alt="Beach Spider Lily">
+          <p class="title">Beach Spider Lily</p>
+          <p class="price">$129.00</p>
+        </a>
 
-          <div class="product-card">
-            <img src="./img/plant5.png" alt="Blushing Bromeliad">
-            <p class="title">Blushing Bromeliad</p>
-            <p class="price">$139.00</p>
-          </div>
+        <a href="#" class="product-card">
+          <img src="./img/plant5.png" alt="Blushing Bromeliad">
+          <p class="title">Blushing Bromeliad</p>
+          <p class="price">$139.00</p>
+        </a>
 
-          <div class="product-card">
-            <img src="./img/plant6.png" alt="Aluminium Plant">
-            <p class="title">Aluminium Plant</p>
-            <p class="price">$179.00</p>
-          </div>
-          
-          <div class="product-card">
-            <img src="./img/plant7.png" alt="Bird's Nest Fern">
-            <p class="title">Bird's Nest Fern</p>
-            <p class="price">$99.00</p>
-          </div>
-          
-          <div class="product-card">
-            <img src="./img/plant8.jpg" alt="Broadleaf Lady Palm">
-            <p class="title">Broadleaf Lady Palm</p>
-            <p class="price">$59.00</p>
-          </div>
-          
-          <div class="product-card">
-            <img src="./img/plant9.png" alt="Chinese Evergreen">
-            <p class="title">Chinese Evergreen</p>
-            <p class="price">$39.00</p>
-          </div>
-          <div class="pagination">
-            <button class="page-btn active">1</button>
-            <button class="page-btn">2</button>
-            <button class="page-btn">3</button>
-            <button class="page-btn">4</button>
-            <button class="page-btn">&rsaquo;</button>
-      </div>
+        <a href="#" class="product-card">
+          <img src="./img/plant6.png" alt="Aluminium Plant">
+          <p class="title">Aluminium Plant</p>
+          <p class="price">$179.00</p>
+        </a>
+
+        <a href="#" class="product-card">
+          <img src="./img/plant7.png" alt="Bird's Nest Fern">
+          <p class="title">Bird's Nest Fern</p>
+          <p class="price">$99.00</p>
+        </a>
+
+        <a href="#" class="product-card">
+          <img src="./img/plant8.jpg" alt="Broadleaf Lady Palm">
+          <p class="title">Broadleaf Lady Palm</p>
+          <p class="price">$59.00</p>
+        </a>
+
+        <a href="#" class="product-card">
+          <img src="./img/plant9.png" alt="Chinese Evergreen">
+          <p class="title">Chinese Evergreen</p>
+          <p class="price">$39.00</p>
+        </a>
+
       </div>
     </div>
-   
 
-</main>
+
+  </main>
+  <div class="pagination">
+    <button class="page-btn active">1</button>
+    <button class="page-btn">2</button>
+    <button class="page-btn">3</button>
+    <button class="page-btn">4</button>
+    <button class="page-btn">&rsaquo;</button>
+  </div>
 
 
 </body>
+
 </html>
